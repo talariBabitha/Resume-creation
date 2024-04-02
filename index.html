@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="C:/Users/HP/Downloads/bootstrap-5.3.2-dist/bootstrap-5.3.2-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>My Resume</title>
+    <style>
+     .container {
+            max-width: 100%;
+            overflow: hidden;
+            border-radius: 10px;
+            background-color: hwb(0 51% 13% / 0.792);
+            
+  }
+  .image-container {
+           display: flex;
+            justify-content: center; 
+            align-items: center; 
+            transition: transform 0.3s ease;
+  }
+  .image-container:hover {
+    transform: scale(0.8); 
+  }
+  .image-container:active {
+    transform: scale(1.0); 
+  }
+  .circular-image {
+   border-radius: 30%;
+    max-width: 50%;
+    max-height: 50%;
+}
+  .side-by-side {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.side-by-side i {
+    margin-right: 5px; 
+}
+.side-by-side p {
+    line-height: 1; 
+    text-shadow: 2px 2px white;
+}
+
+  a{
+    color: #ffd000;
+    text-decoration: none; 
+  }
+
+  a:hover {
+    color: red; 
+  }
+  .button {
+    padding: 10px 20px; 
+    margin-right: 10px; 
+    margin-bottom: 10px;
+    border: none; 
+    cursor: pointer; 
+   
+  }
+  .c{
+    background-color:#5d5959;
+  }
+  .decor{
+    text-shadow:2px 2px black;
+  }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!--1st row-->
+        <div class="row mb-2">
+            <div class="col-md-3 bg-dark ">
+                <div class="image-container">
+                <img src="C:/Users/HP/Desktop/WhatsApp Image 2024-02-16 at 00.38.00.jpeg"  class="circular-image ">
+                <p></p>
+                <p></p>
+                </div>
+            </div>
+            <div class="col-md-7 bg-warning">
+                <span class="side-by-side">
+                <i class="fa-solid fa-envelope "></i>
+                <p>Talaribabitha9@gmail.com</p>
+                </span>
+                <span class="side-by-side">
+                <i class="fa-brands fa-linkedin"></i>
+                <p>babitha-talari-248687252</p>
+                </span>
+                <span class="side-by-side">
+                <i class="fa-solid fa-phone"></i>
+                <p>91+9515159823</p>
+                </span>
+                <h1 class="h1 fst-italic decor">TALARI VENKATA SAI BABITHA</h1>
+
+            </div>
+            <div class="col-md-10 bg-secondary">
+                <div class="accordion-item mb-3">
+                    <div class="accordion-header">
+                       <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#co"><h5 class="h4 text-warning  text-decoration-underline">Career Objective</h5>
+                       </button>
+                    </div>
+                    <div id="co" class="accordion-collapse collapse" data-bs-parent="#faqs">
+                    <div class="accordion-body">
+                    <p class="lead  text-white ">Seeking an oppurtunity in the engineering industry,where I can leverage my technical skills,adaptability, and passion for innovation to contribute to projects,learn from experienced professionals, and develop a successful career.</p>
+                    </div>
+                     </div>
+                </div>
+             </div>
+          <div class="col-md-10 bg-secondary">
+                 <div class="accordion-item mb-3">
+                   <div class="accordion-header">
+                   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#tags"><h5 class="h4 text-warning text-decoration-underline">Academics</h5>
+                   </button>
+                 </div>
+                <div id="tags" class="accordion-collapse collapse" data-bs-parent="#faqs">
+                <div class="accordion-body">
+                   <table class="table table-bordered">
+             <thead>
+                  <tr>
+                      <th>Qualification</th>
+                      <th>Institute/University</th>
+                      <th> Year</th>
+                      <th>Percentage/Grade</th>
+                  </tr>
+              </thead>
+              <tbody>
+                  <tr>
+                      <td>B.Tech</td>
+                      <td>G.Pulla Reddy Engineering College</td>
+                      <td>2020-2024</td>
+                      <td>8.08</td>
+                  </tr>
+                  <tr>
+                      <td>Intermediate</td>
+                      <td>Narayana Junior College</td>
+                      <td>2018-2020</td>
+                      <td>87</td>
+                  </tr>
+                  <tr>
+                      <td>SSC</td>
+                      <td>Sri Chaitanya EM School</td>
+                      <td>2017-2018</td>
+                      <td>9.8</td>
+                  </tr>
+              </tbody>
+          </table>
+          </div>
+          </div>
+         </div>
+         </div>
+         <div class="col-md-10 bg-secondary">
+          <div class="row">
+            <div class="col-md-4 h4 text-warning text-decoration-underline"> <a href="certificate.html">Certificates</a></div>
+            <div class="col-md-4 h4 text-warning text-decoration-underline"><a href="projects.html">Projects</a></div>
+            <div class="col-md-4 h4 text-warning text-decoration-underline"><a href="internships.html">Internships</a></div>
+          </div>
+         </div>
+         <div class="col-md-5 c">
+            <p class="h5 text-white text-decoration-underline" style="text-align:center">Hard Skills</p>
+            <input type="submit" value="Java" class="btn btn-dark button">
+            <button type="submit" class="btn btn-secondary button">Python</button>
+            <input type="submit" value="HTML,CSS & Bootstrap" class="btn btn-dark button">
+            <button type="submit" class="btn btn-secondary button">DBMS</button>
+            <input type="submit" value="Machine Learning" class="btn btn-dark button">
+            <button type="submit" class="btn btn-secondary button">Testing</button>
+         </div>
+         <div class="col-md-5 bg-warning">
+            <p class="h5 text-dark text-decoration-underline" style="text-align:center">Soft Skills</p>
+            <input type="submit" value="Creativity" class="btn btn-dark button">
+            <button type="submit" class="btn btn-secondary button">Teamwork</button>
+            <input type="submit" value="Adaptability" class="btn btn-dark button">
+            <button type="submit" class="btn btn-secondary button">Emotional Intelligence</button>
+            <input type="submit" value="Collaboration" class="btn btn-dark button">
+            <button type="submit" class="btn btn-secondary button">Empathy</button>
+         </div>
+         <div class="col-md-5 bg-warning">
+<h4 style="text-align:center" class="fst-italic text-decoration-underline">Achievements</h4>
+<ul>
+    <li class="text-dark fw-semibold">Solved 100+ problems on CodeChef,GFG,HackerRank</li>
+    <li class="text-dark fw-semibold"> Organized and executed successful events or initiatives on campus.</li>
+    <li class="text-dark fw-semibold"> District level kabaddi player</li>
+  </ul>
+         </div>
+         <div class="col-md-5 c">
+            <h4 style="text-align:center" class="fst-italic text-decoration-underline text-white">Area of Interests</h4>
+            <ul>
+                <li class="text-white fw-semibold">Dancing</li>
+                <li class="text-white fw-semibold"> Problem Solving</li>
+                <li class="text-white fw-semibold"> Listening to Music</li>
+              </ul>
+         </div>
+         </div>
+    <script src="C:/Users/HP/Downloads/bootstrap-5.3.2-dist/bootstrap-5.3.2-dist/js/bootstrap.bundle.js">
+    </script> 
+</body>
+</html>

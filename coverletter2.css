@@ -1,0 +1,47 @@
+*{
+    margin:0;
+    padding:0;
+}
+ h1{
+    background-color: blueviolet;
+    text-align: center;
+    color:beige;
+    font-style: italic;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100vh; /* 100% viewport height */
+  }
+
+  .lefthalf {
+    width: 25%;
+    height: 100%;
+    border: 1px solid black;
+    background-color: #0d0d4d;
+    color:aliceblue;
+    line-height: 25px;
+  }
+  .lefthalf h4{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+  }
+  .lefthalf p{
+    margin-left: 10px;
+  }
+  .righthalf {
+    width: 70%;
+    height: 100%;
+  }
+  .address p{
+    line-height: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  .right {
+    float: right;
+    line-height: 30px;
+   
+  }
+  

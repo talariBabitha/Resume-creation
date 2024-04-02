@@ -1,0 +1,21 @@
+.container {
+    display: flex;
+    height: 100vh; 
+  }
+  
+  .section {
+    flex: 1; 
+    border: 1px solid #000; 
+    text-align: center; 
+  }
+  
+  .section1 {
+    background-color: #cceeff; 
+  }
+  
+  .section2  {
+    background-color: #ffcc99; 
+   
+  }
+  
+  

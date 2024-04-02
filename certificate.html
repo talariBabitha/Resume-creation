@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Certificates</title>
+<style>
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  .image {
+    flex: 0 0 45%;
+    margin: 10px;
+    overflow: hidden; /* Ensures the hover effect doesn't overflow */
+  }
+  .image img {
+    max-width: 100%;
+    height: auto;
+    transition: transform 0.3s ease; /* Adding a smooth transition */
+  }
+  .image:hover img {
+    transform: scale(1.1); /* Enlarges the image on hover */
+  }
+</style>
+</head>
+<body>
+<div class="container">
+  <div class="image">
+    <img src="cisco.jpg" alt="Image 1">
+  </div>
+  <div class="image">
+    <img src="Infosys.jpg" alt="Image 2">
+  </div>
+  <div class="image">
+    <img src="nextgen.jpg" alt="Image 4">
+  </div>
+  <div class="image">
+    <img src="Number System.png" alt="Image 3">
+  </div>
+</div>
+</body>
+</html>
